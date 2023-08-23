@@ -5,9 +5,9 @@ var hora = salarioBase/160;
 var horaExtra = hora*1.5;
 if (horaSemanal >= 40){
     salario = salarioBase +(horaExtra *(horaSemanal-40));
-    alert(salario);
+    alert("salarioBruto:"+ salario + "\nsalarioliquido"+"salario*0.975");
 }
 else {
     salario = salarioBase - (horaSemanal*hora);
-    alert (salerio);
+    alert ("salarioBruto:"+ salario + "\nsalarioliquido"+"salario*0.975");
 }
